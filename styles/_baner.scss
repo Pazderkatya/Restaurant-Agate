@@ -1,0 +1,33 @@
+.baner {
+    padding: 218px 0 185px;
+    text-align: center;
+    &__description {
+        font-weight: 400;
+        font-size: 1.56rem;
+        line-height: 31.33px;
+        margin-bottom: 60px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .baner {
+        padding: 183px 0 153px;
+        &__description {
+            font-size: 1.125rem;
+            line-height: 22.25px;
+            margin-bottom: 63px;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .baner {
+        padding: 171px 0 99px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .baner {
+        padding: 171px 15px 99px;
+    }
+}

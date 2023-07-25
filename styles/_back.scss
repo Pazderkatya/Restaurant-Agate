@@ -1,0 +1,19 @@
+.back {
+    position: fixed;
+    bottom: 19px;
+    right: 20px;
+    width: 70px;
+    height: 70px;
+    background-color: #FFAC1C;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.back::after {
+    content: "";
+    width: 28px;
+    height: 12.73px;
+    display: block;
+    background-image: url(../icons/back.svg);
+    margin: 28.7px auto 0;
+}

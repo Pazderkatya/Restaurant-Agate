@@ -1,0 +1,25 @@
+.snapshot {
+    width: 398px;
+    height: 396px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 30px;
+    &__image {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .snapshot {
+        width: 282px;
+        height: 280px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .snapshot {
+        width: 251px;
+        height: 249px;
+        margin-bottom: 20px;
+    }
+}
